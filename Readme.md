@@ -1,6 +1,6 @@
 # Diabetes Prediction using XGBoost
 
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Project Overview
 A machine learning project focused on early diabetes detection using XGBoost algorithm. The model is optimized for recall to prioritize identifying potential diabetes cases, achieving 94% recall while maintaining good overall performance (ROC AUC: 0.97).
@@ -17,29 +17,28 @@ A machine learning project focused on early diabetes detection using XGBoost alg
 ## Project Structure
 ```
 Diabetes Prediction using by XGBoost ML/
-├── artifact/                           # Directory for saving artifacts like models, encoders, scalers
-│   ├── models/                         # Trained model files
-│   └── scalers_and_encoders/          # Preprocessing components (e.g., encoders, scalers)
+├── artifact/                               # Directory for saving artifacts like models, encoders, scalers
+│   ├── models/                             # Trained model files
+│   └── scalers_and_encoders/               # Preprocessing components (e.g., encoders, scalers)
 │
-├── Dataset/                           # Directory for dataset
-│   ├── diabetes_predictions.csv       # Predicted results file
-│   ├── diabetes_test.csv             # Testing dataset
-│   ├── diabetes_train.csv            # Training dataset
-│   └── processed_data.csv            # Preprocessed data file
+├── Dataset/                                # Directory for dataset
+│   ├── diabetes_predictions.csv            # Predicted results file
+│   ├── diabetes_test.csv                   # Testing dataset
+│   ├── diabetes_train.csv                  # Training dataset
+│   └── processed_data.csv                  # Preprocessed data file
 │
-├── notebook/                          # Jupyter Notebooks for project development
-│   ├── diabetes_analysis.ipynb        # Exploratory Data Analysis (EDA)
-│   ├── diabetes_model_training.ipynb  # Model training and hyperparameter tuning
+├── notebook/                               # Jupyter Notebooks for project development
+│   ├── diabetes_analysis.ipynb             # Exploratory Data Analysis (EDA)
+│   ├── diabetes_model_training.ipynb       # Model training and hyperparameter tuning
 │   └── diabetes_prediction_pipeline.ipynb  # Prediction pipeline
 │
-├── venv/                             # Virtual environment (ignored in Git)
-├── LICENSE                           # License file for the project
-├── README.md                         # Project README file
-└── requirements.txt                  # File containing required Python libraries
+├── LICENSE                                 # License file for the project
+├── README.md                               # Project README file
+└── requirements.txt                        # File containing required Python libraries
 ```
 
 ## Model Performance
 
-Recall: 94%
+Recall: 93%
 Precision: 42%
 ROC AUC Score: 0.97
