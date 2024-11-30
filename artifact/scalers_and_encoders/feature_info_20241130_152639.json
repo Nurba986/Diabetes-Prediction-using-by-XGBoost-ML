@@ -1,0 +1,25 @@
+{
+    "numerical_cols": [
+        "age",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "binary_cols": [
+        "gender",
+        "hypertension",
+        "heart_disease"
+    ],
+    "ordinal_cols": [
+        "smoking_history"
+    ],
+    "target_col": "diabetes",
+    "smoking_order": [
+        "never",
+        "former",
+        "not current",
+        "ever",
+        "current",
+        "No Info"
+    ]
+}

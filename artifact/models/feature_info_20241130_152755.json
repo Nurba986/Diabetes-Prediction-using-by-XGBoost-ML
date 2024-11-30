@@ -1,0 +1,17 @@
+{
+    "numerical_features": [
+        "age",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "binary_features": [
+        "gender",
+        "hypertension",
+        "heart_disease"
+    ],
+    "ordinal_features": [
+        "smoking_history"
+    ],
+    "target_column": "diabetes"
+}
